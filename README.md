@@ -9,6 +9,22 @@ This project analyzes a retail coffee dataset to identify revenue drivers, regio
 * SQL (Microsoft SQL Server)
 * Power BI
 
+## Business Problem
+
+The objective of this project was to analyze sales data to identify trends in revenue, product performance, and regional distribution to support data based decisions.
+
+## Data Cleaning
+
+SQL was used to filter and prepare the dataset, including handling missing values and structuring the data for analysis.
+
+## Analysis
+
+SQL queries were used to calculate key metrics such as total revenue, sales by region, and product-level performance using GROUP BY and aggregation functions.
+
+## Visualization
+
+An interactive dashboard was built in Power BI, including KPI cards (Total Sales, Average Order Value), bar charts for regional and product performance, and a line chart for sales trends over time.
+
 ## Dashboard
 
 <img width="1432" height="805" alt="image" src="https://github.com/user-attachments/assets/4d70939c-e2a9-4538-8d58-2b55656c18d0" />
@@ -16,7 +32,7 @@ This project analyzes a retail coffee dataset to identify revenue drivers, regio
 ## Key Insights
 
 * Leading Region: The West region generates the highest revenue among all regions.
-* Product Specialty: Ethiopian Yirgacheffe appears to be a top performer in the beans category—suggesting customers prefer premium single-origin over house blends.
+* Product Specialty: Ethiopian Yirgacheffe appears to be a top performer in the beans category, suggesting customers prefer premium single-origin over house blends.
 * Revenue Anchor: While "Coffee Beans" are the most frequent purchase, Equipment (Electric Grinders) drives 35% of total revenue despite only representing 13% of total unit volume.
 * Bulk Buying in the West: The West region shows a significantly higher quantity-per-order ratio (avg 4.5 units) compared to the East (avg 1.8 units), indicating a potential wholesale or office-supply market.
 * Pricing Gaps: There is a low "Attachment Rate" between Equipment and Coffee Beans; customers buying grinders are not consistently buying beans in the same transaction.
